@@ -1,0 +1,192 @@
+/***** Global *****/
+/* Body */
+body {
+    color: #000305;
+    font-size: 87.5%; /* Base font size: 14px */
+    text-align: left;
+    background: #212121 url("../images/menu-i-header.png")repeat-x ;
+    height: 100%;
+}
+
+.left {
+    padding-top:50px;
+    float:left;
+}
+
+.right{
+    float: right;
+    width:600px;
+    height:192px;
+    background: url("../images/ludzie-header.png") right no-repeat;
+}
+
+.motto {
+    font-family: Cambria;
+    font-size: 1.1em;
+    padding-top: 119px;
+    padding-left: 150px;
+    color: black;
+
+}
+/***** Layout *****/
+.main {
+    width:951px; 	
+    padding:0px;
+    margin:0 auto;
+
+}
+
+header {
+    width:100%;
+    position:relative; 
+    z-index:2;
+}
+/***** menu *****/
+.menu {
+    width:100%;
+
+    font-family: 'Economica', sans-serif;
+    font-size: 1.5em;
+    overflow:hidden;
+    color: #4284FF;
+    list-style: none;
+
+}
+.menu li {
+    float:left; 
+}
+.menu li a {
+    display:block; 
+    padding: 19px;
+    color:#4284FF; 
+    text-decoration: none;
+
+}
+.menu li a.active,
+.menu li a:hover {
+
+    color: #fff;
+
+    background: url("../images/menu-button-aktywny.png");
+}
+/***** .bottomMenu  *****/
+.bottomMenu-row {
+    position:relative;
+    z-index:2;
+
+    clear: both;
+    background: url("../images/menu-content.png") repeat-x;
+    border-top: 1px solid #46a2f3;
+    width:100%;
+    margin: 0 auto;
+    padding: 0;
+    box-shadow: 0 4px 2px -2px #222;
+
+
+}
+
+.bottomMenu  {
+    width:100%;
+
+    font-family: 'Economica', sans-serif;
+    font-size: 1.3em;
+    overflow:hidden;
+    color: #4284FF;
+    list-style: none;
+
+}
+.bottomMenu  li {
+    float:right; 
+    position:relative;
+
+}
+.bottomMenu li a {
+    display:block; 
+    padding: 14px;
+    color:#999; 
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+.bottomMenu  li a.active,
+.bottomMenu li a:hover {
+
+
+    background: url("../images/strzalka-menu-content.png")  center no-repeat;
+    background-position: center top;
+}
+/******  content  ***8*/
+.content {
+
+
+    background: #fff url("../images/stopka-strzalka.png") bottom left no-repeat ;
+    height:auto;
+    min-height: 460px;
+    overflow: auto;
+
+}
+.leftContent { 
+    float: left;
+    width: 650px;
+    background: #fff;    
+
+
+
+}
+
+.rightContent {
+
+    float: right;
+    width: 293px;
+    background: #fff;    
+}
+
+/***** article ****8*/
+
+.boxTitle {
+    height: 63px;
+    background: url("../images/nagl-lewa.png") no-repeat;
+}
+
+p.title {
+    font-family: 'Revalia', cursive;
+    color: #fff;
+    padding: 12px 20px;
+    font-size:1.2em;
+    text-shadow: #000 1px 1px 5px;
+}
+
+.boxContent {
+    padding: 16px;
+}
+
+.rightBoxTtitle {
+    height: 60px;
+    background: url("../images/nagl-prawa.png") bottom no-repeat;
+}
+
+.rightTitle {
+    font-family: 'Revalia', cursive;
+    padding: 12px;
+    color:  #46a2f3;
+
+}
+/*** footer  *****/
+footer {
+    height : 80px;
+    background: url("../images/stopka-bg.png") no-repeat;
+}
+
+.leftFoot {
+    float: left;
+    padding: 22px;
+    margin-left: 15px;
+    background: url("../images/copyright.png") no-repeat center left;
+}
+.copyright {
+    padding-left: 30px;
+    color: #8c949c;
+}
+.rightFoot {
+
+}

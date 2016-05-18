@@ -1,0 +1,171 @@
+/* -- LAYOUT --*/
+
+body {
+
+    background: white;
+}
+
+header {
+    position: absolute;
+    top:0;
+    width:100%;
+    height: 90px;
+    background: black;
+    box-shadow: 0px 5px 25px black;
+}
+
+#main {
+     overflow: hidden; 
+    min-height: 900px;
+    text-align: center;
+    margin-top:90px;
+
+}
+
+#sidebar {
+    display: block;
+    float: left;
+    width: 300px;
+    height: 100%;
+background:gray;
+  min-height:500px;
+  height:auto !important;
+  
+
+}
+
+#content {
+    text-align: left;
+    margin-left: 300px;
+    padding: 15px;
+    
+}
+
+footer { 
+    background: #BFF08E;
+    text-align: center;
+    color: silver;
+    font-size: 0.7em;
+    background: black;
+    box-shadow: 0px -5px 15px black;
+    overflow : hidden;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+   
+}
+
+
+/* -- ELEMENTS --*/
+
+
+/*footer*/
+
+#footer {
+    width:1000px;
+    margin: 0 auto;
+    padding: 25px;
+
+}
+
+.footLeft, .footMiddle, .footRight {
+    float: left;
+    width: 300px;
+    margin: 0 auto;
+    background: #090909;
+    box-shadow: 0px 0px 15px #111;
+}
+
+.footLeft {
+    margin-right:50px;
+}
+
+.footRight{
+    margin-left: 50px;
+}
+
+#footer fieldset {
+
+    padding: 2px;
+    margin: 1px;
+
+}
+
+
+#footer legend {
+    text-shadow: silver 1px 2px 3px;
+    padding: 2px 5px;
+    color:gray;
+}
+
+
+/*top*/
+
+
+.topName {
+    position:absolute;
+    left:40px;
+    top:20px;
+    font-size: 3em;
+    font-family: 'Orbitron', sans-serif;
+    color:white;
+    /*text-shadow: magenta 2px 3px 5px;*/
+}
+
+/*left*/
+
+ul {
+    list-style: none;
+}
+
+ul li {}
+
+li{}
+
+/*right*/
+
+.success {
+    border: 1px solid  green;
+    box-shadow: 0 0 15px green;
+    text-align: left;
+    margin-bottom: 20px;
+    background-color:rgba(0,255,0,0.15);
+    padding: 10px;
+
+
+}
+
+.success span {
+    color: #0f0;
+
+}
+.failure {
+    border: 1px solid  red;
+    box-shadow: 0 0 15px red;
+    text-align: left;
+    margin-bottom: 20px;
+    background-color:rgba(255,0,0,0.15);
+    padding: 10px;
+
+
+}
+
+.failure span {
+    color: #f00;
+
+}
+.info{
+    border: 1px solid  black;
+    box-shadow: 0 0 15px black;
+    text-align: left;
+    margin-bottom: 20px;
+    background-color:rgba(0,0,0,0.15);
+    padding: 10px;
+
+
+}
+
+.info span {
+    color: black;
+
+}
